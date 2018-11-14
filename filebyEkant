@@ -1,1 +1,20 @@
- We are trying to work with git
+1. create new repository 
+2. find clone link ==> clone-link  
+3. go to directory where you want to add files in your machine in terminal
+4. fetch files into your machine 
+	git clone clone-link
+5. make changes you want 
+6. check status :
+	git status
+6. Go inside the git directory that you have added, to add into buffer :
+	git add filename
+	OR
+	git add .
+7. to commit buffer 
+ 	git commit -m "msg"
+
+	If you are using first time then configure Who you are:
+		git config --global user.email "emailid"
+		git config --global user,name "username"
+9. to push file to git 
+	git push origin master 
